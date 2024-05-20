@@ -1,4 +1,6 @@
-brick-breaker-game
+Brick-Breaker-game
+
+
 Ball.java extends the provided GameObj class, and is an object representing the ball that bounces off the paddle and hits the bricks. The ball has size, position, velocity and color.
 
 BrickType.java is a simple enum for the 3 brick types: EMPTY, REGULAR, BOMB and UNBREAKABLE. These are used in Brick.getBrickType(), which is used in GameCourt to check Brick types when iterating through the brickArray.
